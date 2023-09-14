@@ -6,7 +6,7 @@ function CurrentMagazin() {
       <div className="w-52 pt-8">
         <img src="./BentoBoxSystem_Logo.png" alt="" srcset="" />
       </div>
-      <div className="mt-4 screen sm:mt-24 sm:space-y-8">
+      <div className="mt-2 screen sm:mt-24 sm:space-y-8">
         <p className="text-white font-[500] text-[28px]">
           Current offer you can find in our
         </p>

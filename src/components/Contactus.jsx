@@ -67,7 +67,7 @@ function Contactus() {
         </div>
       </section>
 
-      <div class="w-full py-12 pl-[260px] bg-blue-400 shrink-0 grow-0 basis-auto">
+      <div class="w-full py-12 md:pl-[260px] bg-blue-400 shrink-0 grow-0 basis-auto">
         <div class="flex justify-center items-center flex-wrap">
           <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
             <div class="flex items-start">
