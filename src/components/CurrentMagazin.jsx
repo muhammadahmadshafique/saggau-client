@@ -6,7 +6,7 @@ function CurrentMagazin() {
       <div className="w-52 pt-8">
         <img src="./BentoBoxSystem_Logo.png" alt="" srcset="" />
       </div>
-      <div className="mt-24 space-y-8">
+      <div className="mt-4 screen sm:mt-24 sm:space-y-8">
         <p className="text-white font-[500] text-[28px]">
           Current offer you can find in our
         </p>
@@ -14,14 +14,14 @@ function CurrentMagazin() {
           <p className=" font-[600] text-blue-400 text-[72px]">Magazine</p>
           <p className="text-white font-[600] text-[72px]">2023</p>
         </div>
-        <div className="space-y-3">
+        <div className="pages sm:space-y-3">
           <p className="text-white font-[700] text-[28px]">108 Pages</p>
           <p className=" font-[700] underline text-blue-400 text-[28px]">
             Edition 1
           </p>
         </div>
 
-        <div className="space-x-6 pt-12">
+        <div className="sm:space-x-6 sm:flex-row sm:justify-start sm:items-start flex flex-col justify-center items-center gap-y-4 pt-12">
           <button className="bg-blue-400 px-12 py-3 text-white font-[800] rounded-lg">
             Online View
           </button>

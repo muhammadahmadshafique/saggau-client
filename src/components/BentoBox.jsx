@@ -3,6 +3,9 @@ import React from "react";
 function BentoBox() {
   return (
     <div className="px-2 md:px-28">
+       <div className="w-full mt-12 pt-8 flex justify-center items-center bg-blue-400 p-12 rounded-2xl">
+        <img className="w-52" src="./BentoBoxSystem_Logo.png" alt="" srcset="" />
+      </div>
       <div className="my-20 hover:bg-blue-200 py-7  flex px-12 flex-col rounded-xl gap-y-3 justify-between border border-blue-300 items-center md:flex-row">
         <p className="text-black opacity-70 flex-1 font-[500] leading-[22px] text-[18px]">
           Unser BentoBox System ist eine hochwertige Variante einer Lunchbox. In

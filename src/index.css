@@ -10,3 +10,13 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
+
+
+@media screen and (min-width: 500px) and (max-width: 640px) {
+  .screen {
+    margin-top: 82px;
+  }
+  .pages{
+    margin-top: 32px;
+  }
+}
