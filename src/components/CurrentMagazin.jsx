@@ -57,7 +57,7 @@ function CurrentMagazin() {
           </p>
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, x: -350, rotate: 0 }}
+        <motion.div initial={{ opacity: 0, x: -100, rotate: 0 }}
           whileInView={{
             opacity: 1,
             x: 0,           
