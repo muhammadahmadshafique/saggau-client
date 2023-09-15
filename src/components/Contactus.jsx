@@ -1,18 +1,37 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Contactus() {
   return (
     <div className="mt-12">
       <section class="bg-white dark:bg-gray-900">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+          <motion.h2 initial={{ opacity: 0, y: 100 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              scale: [0.8, 1.1, 1],
+            }}
+            transition={{ duration: 1 }} class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Contact Us
-          </h2>
-          <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+          </motion.h2>
+          <motion.p initial={{ opacity: 0, y: 100 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              scale: [0.8, 1.1, 1],
+            }}
+            transition={{ duration: 1 }} class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
             Got a technical issue? Want to send feedback about a beta feature?
             Need details about our Business plan? Let us know.
-          </p>
-          <form action="#" class="space-y-8">
+          </motion.p>
+          <motion.form initial={{ opacity: 0, y: -100 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              scale: [0.8, 1.1, 1],
+            }}
+            transition={{ duration: 1 }} action="#" class="space-y-8">
             <div>
               <label
                 for="email"
@@ -63,11 +82,17 @@ function Contactus() {
             >
               Send message
             </button>
-          </form>
+          </motion.form>
         </div>
       </section>
 
-      <div class="w-full py-12 md:pl-[260px] bg-blue-400 shrink-0 grow-0 basis-auto">
+      <motion.div initial={{ opacity: 0, y: 100 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              scale: [0.8, 1.1, 1],
+            }}
+            transition={{ duration: 1 }} class="w-full py-12 md:pl-[260px] bg-blue-400 shrink-0 grow-0 basis-auto">
         <div class="flex justify-center items-center flex-wrap">
           <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
             <div class="flex items-start">
@@ -194,7 +219,7 @@ function Contactus() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
