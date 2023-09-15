@@ -11,7 +11,7 @@ function CurrentMagazin() {
           x: 0,
         }}
         transition={{ duration: 1 }}
-        className="w-52 pt-8"
+        className="w-52 pt-16"
       >
         <img src="./BentoBoxSystem_Logo.png" alt="" srcset="" />
       </motion.div>
@@ -36,7 +36,7 @@ function CurrentMagazin() {
           }}
           transition={{ duration: 1 }}
         >
-          <p className=" font-[600] text-blue-400 text-[72px]">Magazine</p>
+          <p className=" font-[600] text-blue-400 text-[62px]">Magazine</p>
           <p className="text-white font-[600] text-[72px]">2023</p>
         </motion.div>
         <motion.div
@@ -62,7 +62,7 @@ function CurrentMagazin() {
             opacity: 1,
             x: 0,           
           }}
-          transition={{ duration: 1.5 }} className="sm:space-x-6 sm:flex-row sm:justify-start sm:items-start flex flex-col justify-center items-center gap-y-4 pt-12">
+          transition={{ duration: 1.5 }} className="sm:space-x-6 sm:flex-row sm:justify-start sm:items-start flex flex-col justify-center items-center gap-y-4 pt-4">
           <button className="bg-blue-400 px-12 py-3 text-white font-[800] rounded-lg">
             Online View
           </button>
